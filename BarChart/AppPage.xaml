@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:chart="clr-namespace:MindFusion.Charting.Controls;assembly=MindFusion.Charting"
+ 	x:Class="IOSSamples.AppPage">
+	<ContentPage.Content>
+		<StackLayout Spacing="5" Padding="10">
+			
+			<Label Text="BarChart Sample" />
+			<Label Text="This sample demonstrates the BarChart control." FontSize="12" />
+
+			<chart:BarChart x:Name="barChart" WidthRequest="300" HeightRequest="300" />
+
+			<Picker x:Name="cbxBarLayout" SelectedIndexChanged="cbxBarLayout_ItemSelected" />
+			<StackLayout Orientation="Horizontal">
+				<Switch x:Name="chbHorizontalBars" Toggled="chbHorizontalBars_Toggled" />
+				<Label Text="Horizontal bars" VerticalOptions="Center" />
+			</StackLayout>
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

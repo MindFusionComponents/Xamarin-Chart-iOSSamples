@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:chart="clr-namespace:MindFusion.Charting.Controls;assembly=MindFusion.Charting"
+  	x:Class="IOSSamples.AppPage">
+	<ContentPage.Content>
+		<StackLayout Spacing="5" Padding="10">
+			<Label Text="BarChart3D Sample" />
+			<Label Text="This sample demonstrates the BarChart3D control." FontSize="12" />
+
+			<chart:BarChart3D x:Name="barChart" WidthRequest="300" HeightRequest="300" />
+
+			<Label Text="Bar layout:" FontSize="12" />
+			<Picker x:Name="cbxBarLayout" SelectedIndexChanged="cbxBarLayout_ItemSelected" />
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

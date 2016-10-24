@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:chart="clr-namespace:MindFusion.Charting.Controls;assembly=MindFusion.Charting"
+	x:Class="IOSSamples.AppPage">
+	<ContentPage.Content>
+		<StackLayout Spacing="5" Padding="10, 30, 10, 0">
+			<Label Text="Candlestick Sample" />
+			<Label Text="This sample demonstrates the CandlestickChart control." FontSize="12" />
+
+			<chart:CandlestickChart x:Name="candlestickChart" WidthRequest="300" HeightRequest="300" />
+
+			<StackLayout Orientation="Horizontal">
+				<Switch x:Name="cbWidgets" Toggled="cbWidgets_Toggled" />
+				<Label Text="Show zoom widgets" VerticalOptions="Center" />
+			</StackLayout>
+
+			<Label Text="Date format:" />
+			<Picker x:Name="cbDateFormat" SelectedIndexChanged="cbDateFormat_ItemSelected" />
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

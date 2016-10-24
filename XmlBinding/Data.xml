@@ -1,0 +1,404 @@
+<!DOCTYPE weather-observations SYSTEM "http://www.bom.gov.au/dtd/weather-observations.dtd" [<!ENTITY degree "&#176;"> ]>
+
+<weather-observations>
+
+	<product id="IDN65176" name="Agricultural Observations Bulletin for New South Wales" create-time-local="20160303T1115" create-time-utc="20160303T0015" time-zone="EDT">
+
+			<copyright-notice owner="Bureau of Meteorology, Australia" year="2001">
+				<text>
+		#-------------------------------------------
+					Please note the
+					&lt;a href="http://www.bom.gov.au/other/copyright.shtml"&gt;Copyright Notice and Disclaimer&lt;/a&gt;
+					relating to the use of the information. 
+					Users of this information are deemed to have read and accepted the
+					conditions described in the
+					&lt;a href="http://www.bom.gov.au/other/copyright.shtml"&gt;Copyright Notice and Disclaimer&lt;/a&gt;
+                                        Please note information at the foot of 
+					&lt;a href="http://www.bom.gov.au/cgi-bin/wrap_fwo.pl?IDN65176.html"&gt;html version of Agricultural Observations Bulletin&lt;/a&gt;
+				</text>
+			</copyright-notice>
+
+			<issuing-office>
+				Bureau of Meteorology, New South Wales Regional Office
+			</issuing-office>
+
+		<group name="current">
+			<obs-def obs-time-local="20160303T1115" obs-time-utc="20160303T0015" time-zone="EDT">
+				<data-def type="tx" name="maximum temperature" unit="celsius" unit-abbreviation="&#176;C" />
+				<data-def type="tn" name="minimum temperature" unit="celsius" unit-abbreviation="&#176;C" />
+				<data-def type="tg" name="terrestrial minimum temperature" unit="celsius" unit-abbreviation="&#176;C" />
+				<data-def type="twd" name="wetbulb depression" unit="celsius" unit-abbreviation="&#176;C" />
+				<data-def type="r" name="rain to 9am" unit="millimetres" unit-abbreviation="mm" />
+				<data-def type="ev" name="evaporation" unit="millimetres" unit-abbreviation="mm" />
+				<data-def type="wr" name="wind run" unit="kilometres" unit-abbreviation="km" />
+				<data-def type="sn" name="sunshine" unit="hours" unit-abbreviation="h" />
+				<data-def type="solr" name="solar radiation" unit="megajoules per square metre" unit-abbreviation="MJ/sq m" />
+				<data-def type="t5" name="5cm temperature" unit="celsius" unit-abbreviation="&#176;C" />
+				<data-def type="t10" name="10cm temperature" unit="celsius" unit-abbreviation="&#176;C" />
+				<data-def type="t20" name="20cm temperature" unit="celsius" unit-abbreviation="&#176;C" />
+				<data-def type="t50" name="50cm temperature" unit="celsius" unit-abbreviation="&#176;C" />
+				<data-def type="t1m" name="1m temperature" unit="celsius" unit-abbreviation="&#176;C" />
+			</obs-def>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="56037" station="Armidale">
+				<d t="tx">30.4</d>
+				<d t="tn">12.1</d>
+				<d t="tg">6.1</d>
+				<d t="twd">1.5</d>
+				<d t="r">0.0</d>
+				<d t="ev">5.4</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="63005" station="Bathurst">
+				<d t="tx">32.5</d>
+				<d t="tn">15.0</d>
+				<d t="tg">10.5</d>
+				<d t="twd">4.4</d>
+				<d t="r">0.0</d>
+				<d t="ev">7.0</d>
+				<d t="wr">68</d>
+				<d t="t10">22.0</d>
+				<d t="t20">24.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="69139" station="Bega">
+				<d t="tx">33.6</d>
+				<d t="tn">16.6</d>
+				<d t="twd">0.0</d>
+				<d t="r">0.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="48245" station="Bourke Ap AWS">
+				<d t="tx">39.4</d>
+				<d t="tn">23.7</d>
+				<d t="twd">12.1</d>
+				<d t="r">0.0</d>
+				<d t="wr">149</d>
+				<d t="t5">31.8</d>
+				<d t="t10">33.6</d>
+				<d t="t20">35.8</d>
+				<d t="t50">36.0</d>
+				<d t="t1m">33.6</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="73007" station="Burrinjuck Dam">
+				<d t="tx">35.4</d>
+				<d t="tn">16.8</d>
+				<d t="twd">4.7</d>
+				<d t="r">0.0</d>
+				<d t="ev">6.8</d>
+				<d t="wr">28</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="68257" station="Campbelltown">
+				<d t="tx">33.7</d>
+				<d t="tn">18.0</d>
+				<d t="twd">1.3</d>
+				<d t="r">0.0</d>
+				<d t="wr">63</d>
+				<d t="t5">23.4</d>
+				<d t="t10">23.7</d>
+				<d t="t20">24.5</d>
+				<d t="t50">24.6</d>
+				<d t="t1m">23.3</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="70351" station="Canberra">
+				<d t="tx">33.9</d>
+				<d t="tn">12.6</d>
+				<d t="twd">7.2</d>
+				<d t="r">0.0</d>
+				<d t="wr">166</d>
+				<d t="t5">22.9</d>
+				<d t="t10">23.6</d>
+				<d t="t20">25.3</d>
+				<d t="t50">26.4</d>
+				<d t="t1m">24.4</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="48027" station="Cobar">
+				<d t="tx">38.0</d>
+				<d t="tn">24.8</d>
+				<d t="tg">22.7</d>
+				<d t="twd">11.7</d>
+				<d t="r">0.0</d>
+				<d t="ev">10.6</d>
+				<d t="wr">170</d>
+				<d t="t10">31.0</d>
+				<d t="t20">33.0</d>
+				<d t="t50">34.0</d>
+				<d t="t1m">32.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="56013" station="Glen Innes (48)*">
+				<d t="tx">28.0</d>
+				<d t="tn">13.0</d>
+				<d t="tg">8.0</d>
+				<d t="twd">1.5</d>
+				<d t="ev">4.0</d>
+				<d t="wr">130</d>
+				<d t="t10">23.0</d>
+				<d t="t20">24.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="70263" station="Goulburn">
+				<d t="tx">33.5</d>
+				<d t="tn">15.4</d>
+				<d t="tg">12.7</d>
+				<d t="twd">3.6</d>
+				<d t="r">0.0</d>
+				<d t="ev">7.0</d>
+				<d t="wr">71</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="58077" station="Grafton RS Stn">
+				<d t="tx">31.7</d>
+				<d t="tn">19.9</d>
+				<d t="twd">1.3</d>
+				<d t="r">0.0</d>
+				<d t="wr">71</d>
+				<d t="t5">24.8</d>
+				<d t="t10">24.5</d>
+				<d t="t20">25.0</d>
+				<d t="t50">25.1</d>
+				<d t="t1m">24.7</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="75041" station="Griffith AP AWS">
+				<d t="tx">39.8</d>
+				<d t="tn">21.8</d>
+				<d t="twd">10.9</d>
+				<d t="r">0.0</d>
+				<d t="wr">155</d>
+				<d t="t5">29.2</d>
+				<d t="t10">30.4</d>
+				<d t="t20">31.9</d>
+				<d t="t50">31.9</d>
+				<d t="t1m">30.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="55024" station="Gunnedah SCS">
+				<d t="tx">35.2</d>
+				<d t="tn">21.7</d>
+				<d t="twd">5.7</d>
+				<d t="r">0.0</d>
+				<d t="ev">8.8</d>
+				<d t="wr">119</d>
+				<d t="t10">29.0</d>
+				<d t="t20">31.0</d>
+				<d t="t50">31.0</d>
+				<d t="t1m">28.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="75019" station="Hay">
+				<d t="tx">40.5</d>
+				<d t="tn">22.4</d>
+				<d t="twd">11.6</d>
+				<d t="r">0.0</d>
+				<d t="wr">145</d>
+				<d t="t5">29.0</d>
+				<d t="t10">29.8</d>
+				<d t="t20">31.0</d>
+				<d t="t50">29.6</d>
+				<d t="t1m">29.2</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="72023" station="Hume Reservoir">
+				<d t="tx">36.9</d>
+				<d t="tn">19.2</d>
+				<d t="twd">5.6</d>
+				<d t="r">0.0</d>
+				<d t="ev">8.0</d>
+				<d t="wr">105</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="56018" station="Inverell SCS (72)*">
+				<d t="tx">33.3</d>
+				<d t="tn">17.7</d>
+				<d t="tg">12.5</d>
+				<d t="twd">3.2</d>
+				<d t="r">0.0</d>
+				<d t="ev">8.0</d>
+				<d t="wr">88</d>
+				<d t="sn">11.2</d>
+				<d t="t10">25.0</d>
+				<d t="t20">27.0</d>
+				<d t="t50">25.0</d>
+				<d t="t1m">25.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="47016" station="Lake Victoria">
+				<d t="tx">40.1</d>
+				<d t="tn">20.5</d>
+				<d t="twd">5.0</d>
+				<d t="r">0.0</d>
+				<d t="ev">11.0</d>
+				<d t="wr">60</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="61288" station="Lostock">
+				<d t="tx">32.0</d>
+				<d t="tn">16.2</d>
+				<d t="twd">1.0</d>
+				<d t="r">0.0</d>
+				<d t="ev">5.6</d>
+				<d t="wr">116</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="53115" station="Moree">
+				<d t="tx">36.3</d>
+				<d t="tn">23.0</d>
+				<d t="tg">20.1</d>
+				<d t="twd">5.3</d>
+				<d t="r">0.0</d>
+				<d t="ev">8.2</d>
+				<d t="wr">178</d>
+				<d t="sn">11.6</d>
+				<d t="t5">30.0</d>
+				<d t="t10">31.0</d>
+				<d t="t20">33.0</d>
+				<d t="t50">33.0</d>
+				<d t="t1m">30.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="60085" station="Mount Seaview">
+				<d t="tx">29.4</d>
+				<d t="tn">17.0</d>
+				<d t="tg">15.9</d>
+				<d t="twd">0.8</d>
+				<d t="r">0.4</d>
+				<d t="ev">2.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="62101" station="Mudgee AWS">
+				<d t="tx">34.1</d>
+				<d t="tn">14.9</d>
+				<d t="twd">5.5</d>
+				<d t="r">0.0</d>
+				<d t="wr">90</d>
+				<d t="t5">23.8</d>
+				<d t="t10">24.8</d>
+				<d t="t20">26.1</d>
+				<d t="t50">26.9</d>
+				<d t="t1m">25.3</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="63254" station="Orange RS">
+				<d t="tx">30.1</d>
+				<d t="tn">15.8</d>
+				<d t="tg">11.0</d>
+				<d t="twd">9.4</d>
+				<d t="r">0.0</d>
+				<d t="ev">8.0</d>
+				<d t="wr">118</d>
+				<d t="sn">10.0</d>
+				<d t="t10">23.0</d>
+				<d t="t20">24.0</d>
+				<d t="t50">24.0</d>
+				<d t="t1m">23.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="67019" station="Prospect">
+				<d t="tx">31.5</d>
+				<d t="tn">19.2</d>
+				<d t="twd">1.5</d>
+				<d t="r">0.0</d>
+				<d t="ev">4.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="66037" station="Sydney Airport">
+				<d t="tx">30.6</d>
+				<d t="tn">22.8</d>
+				<d t="tg">19.4</d>
+				<d t="twd">3.7</d>
+				<d t="r">0.0</d>
+				<d t="ev">8.2</d>
+				<d t="wr">386</d>
+				<d t="sn">10.7</d>
+				<d t="t10">26.0</d>
+				<d t="t20">27.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="57095" station="Tabulam">
+				<d t="tx">27.4</d>
+				<d t="tn">17.7</d>
+				<d t="twd">0.2</d>
+				<d t="r">0.2</d>
+				<d t="ev">5.8</d>
+				<d t="wr">169</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="55325" station="Tamworth AWS">
+				<d t="tx">35.7</d>
+				<d t="tn">18.5</d>
+				<d t="twd">6.3</d>
+				<d t="r">0.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="73151" station="Temora Airport">
+				<d t="tx">38.2</d>
+				<d t="tn">17.3</d>
+				<d t="twd">11.8</d>
+				<d t="r">0.0</d>
+				<d t="wr">137</d>
+				<d t="t5">26.7</d>
+				<d t="t10">25.9</d>
+				<d t="t20">27.4</d>
+				<d t="t50">28.9</d>
+				<d t="t1m">26.9</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="61250" station="Tocal (96)*">
+				<d t="tx">32.4</d>
+				<d t="tn">17.5</d>
+				<d t="tg">12.5</d>
+				<d t="twd">0.1</d>
+				<d t="r">0.0</d>
+				<d t="ev">6.2</d>
+				<d t="t10">26.0</d>
+				<d t="t20">27.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="51049" station="Trangie RS">
+				<d t="tx">38.4</d>
+				<d t="tn">19.2</d>
+				<d t="twd">7.7</d>
+				<d t="r">0.0</d>
+				<d t="wr">115</d>
+				<d t="t5">28.1</d>
+				<d t="t10">28.6</d>
+				<d t="t20">30.0</d>
+				<d t="t50">30.2</d>
+				<d t="t1m">28.8</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="72150" station="Wagga Wagga">
+				<d t="tx">37.5</d>
+				<d t="tn">19.3</d>
+				<d t="tg">16.0</d>
+				<d t="twd">10.6</d>
+				<d t="r">0.0</d>
+				<d t="ev">12.0</d>
+				<d t="wr">165</d>
+				<d t="sn">11.6</d>
+				<d t="t5">25.1</d>
+				<d t="t10">26.2</d>
+				<d t="t20">27.7</d>
+				<d t="t50">28.7</d>
+				<d t="t1m">26.9</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="52088" station="Walgett">
+				<d t="tx">37.1</d>
+				<d t="tn">21.2</d>
+				<d t="twd">6.4</d>
+				<d t="r">0.0</d>
+				<d t="wr">171</d>
+				<d t="t5">27.4</d>
+				<d t="t10">27.4</d>
+				<d t="t20">29.4</d>
+				<d t="t50">29.1</d>
+				<d t="t1m">26.7</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="65034" station="Wellington">
+				<d t="tx">35.5</d>
+				<d t="tn">18.9</d>
+				<d t="tg">18.4</d>
+				<d t="twd">5.7</d>
+				<d t="r">0.0</d>
+				<d t="ev">8.4</d>
+				<d t="wr">84</d>
+				<d t="sn">9.6</d>
+				<d t="t10">30.0</d>
+				<d t="t20">31.0</d>
+				<d t="t50">32.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="46129" station="White Cliffs">
+				<d t="tx">40.7</d>
+				<d t="tn">30.0</d>
+				<d t="twd">13.2</d>
+				<d t="r">0.0</d>
+			</obs>
+			<obs obs-time-local="20160303T0900" obs-time-utc="20160302T2200" time-zone="EDT" site ="61078" station="Williamtown">
+				<d t="tx">31.4</d>
+				<d t="tn">18.9</d>
+				<d t="tg">12.1</d>
+				<d t="twd">2.8</d>
+				<d t="r">0.0</d>
+				<d t="ev">6.8</d>
+				<d t="wr">188</d>
+				<d t="sn">11.5</d>
+			</obs>
+		</group>
+	</product>
+</weather-observations>
+

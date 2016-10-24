@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:chart="clr-namespace:MindFusion.Charting.Controls;assembly=MindFusion.Charting"
+	x:Class="IOSSamples.AppPage">
+	<ContentPage.Content>
+	<StackLayout Spacing="5" Padding="10, 30, 10, 0">
+		<Label Text="Bubble Sample" />
+		<Label Text="This sample demonstrates the BubbleChart control." FontSize="12" />
+
+		<chart:BubbleChart x:Name="bubbleChart" WidthRequest="300" HeightRequest="300" />
+
+		<StackLayout Orientation="Horizontal">
+			<Switch x:Name="cbShowScatter" Toggled="cbShowScatter_Toggled" />
+			<Label Text="Show scatter" VerticalOptions="Center" />
+		</StackLayout>
+
+		<StackLayout Orientation="Horizontal">
+			<Switch x:Name="cbShowLabels" Toggled="cbShowLabels_Toggled" />
+			<Label Text="Show labels" VerticalOptions="Center" />
+		</StackLayout>
+
+		<StackLayout Orientation="Horizontal">
+			<Switch x:Name="cbLegend" Toggled="cbLegend_Toggled" />
+			<Label Text="Show legend" VerticalOptions="Center" />
+		</StackLayout>
+
+	</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
+

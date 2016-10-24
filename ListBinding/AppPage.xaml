@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:chart="clr-namespace:MindFusion.Charting.Controls;assembly=MindFusion.Charting"
+	x:Class="IOSSamples.AppPage">
+	<ContentPage.Content>
+		<StackLayout Spacing="5" Padding="10, 30, 10, 0">
+			<Label Text="List Binding Sample" />
+			<Label Text="This sample shows how to bind the chart to a list of objects by setting the list as DataSource." FontSize="12" />
+
+			<chart:RadarChart x:Name="radarChart" WidthRequest="300" HeightRequest="300" />
+
+			<StackLayout Orientation="Horizontal">
+				<Switch x:Name="cbRadarType" Toggled="cbRadarType_Toggled" />
+				<Label x:Name="lbRadarType" Text="RadarType=Polygon" VerticalOptions="Center" />
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Switch x:Name="cbGridType" Toggled="cbGridType_Toggled" />
+				<Label x:Name="lbGridType" Text="GridType=Spiderweb" VerticalOptions="Center" />
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Switch x:Name="cbShowScatter" Toggled="cbShowScatter_Toggled" />
+				<Label Text="Show scatter" VerticalOptions="Center" />
+			</StackLayout>
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

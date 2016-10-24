@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:chart="clr-namespace:MindFusion.Charting.Controls;assembly=MindFusion.Charting"
+	x:Class="IOSSamples.AppPage">
+	<ContentPage.Content>
+		<StackLayout Spacing="5" Padding="10, 30, 10, 0">
+			<Label Text="PieChart Sample" />
+			<Label Text="This sample demonstrates various properties of the PieChart control. Change property values in this panel to see their effect in the chart." FontSize="12" />
+
+			<chart:PieChart x:Name="pieChart" WidthRequest="300" HeightRequest="300" />
+
+			<StackLayout Orientation="Horizontal">
+				<Switch x:Name="cbDonut" Toggled="cbDonut_Toggled" />
+				<Label Text="Donut" VerticalOptions="Center" />
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Switch x:Name="cbShowDataLabels" IsToggled="True" Toggled="cbShowDataLabels_Toggled" />
+				<Label Text="Show data labels" VerticalOptions="Center" />
+			</StackLayout>
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

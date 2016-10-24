@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:chart="clr-namespace:MindFusion.Charting.Controls;assembly=MindFusion.Charting"
+	x:Class="IOSSamples.AppPage">
+	<ContentPage.Content>
+		<StackLayout Spacing="5" Padding="10, 30, 10, 0">
+			<Label Text="RadarChart Sample" />
+			<Label Text="This sample demonstrates various properties of the RadarChart control. Change property values in this panel to see their effect in the chart." FontSize="12" />
+
+			<chart:RadarChart x:Name="radarChart" WidthRequest="300" HeightRequest="300" />
+
+			<Label Text="Radar type" />
+			<Picker x:Name="cbxRadarType" SelectedIndexChanged="cbxRadarType_ItemSelected" />
+			<Label Text="Grid type" />
+			<Picker x:Name="cbxGridType" SelectedIndexChanged="cbxGridType_ItemSelected" />
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
